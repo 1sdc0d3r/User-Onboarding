@@ -1,0 +1,137 @@
+/*! APP  */
+.App {
+  text-align: center;
+  width: 95%;
+  margin: auto;
+}
+.component {
+  /* border: 1px solid red; */
+}
+.LoginForm {
+  /* border: 1px solid red; */
+  display: flex;
+  /* justify-content: space-around; */
+  flex-direction: column;
+  /* width: 80%; */
+}
+.LoginForm h2 {
+  /* border: 1px solid green; */
+  margin: auto;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+.User {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+/*! User */
+.user-wrapper {
+  /* border: 1px solid red; */
+  border: 1.5px solid skyblue;
+  margin: auto;
+  margin-top: 1.5rem;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.user-wrapper h3 {
+  /* border: 1px solid red; */
+  margin: auto;
+  padding: 10px;
+}
+.user-skill {
+  /* border: 1px solid red; */
+  margin: auto;
+  padding: 10px;
+}
+.user-email {
+  /* border: 1px solid red; */
+  margin: auto;
+  padding: 10px;
+}
+.user-pass {
+  /* border: 1px solid red; */
+  margin: auto;
+  padding: 10px;
+}
+.show {
+  background: red;
+}
+.hide {
+  background: blue;
+}
+
+/*! Form */
+.form {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  width: 80%;
+  padding: 5%;
+  margin: auto;
+}
+.form-field {
+  margin: auto;
+  padding: 10px;
+}
+.name-email {
+  display: flex;
+  border: 1px solid blue;
+  width: 100%;
+  justify-content: space-around;
+}
+.skill-pass {
+  display: flex;
+  border: 1px solid blue;
+  margin-top: 5px;
+  width: 100%;
+  justify-content: space-around;
+}
+.tos-btn {
+  /* display: flex; */
+  /* border: 2px solid blue; */
+  width: 100%;
+  /* flex-direction: row; */
+  /* justify-content: space-between; */
+}
+.form-name {
+  /* border: 1px solid red; */
+  width: 45%;
+}
+.form-email {
+  /* border: 1px solid red; */
+  width: 45%;
+}
+.form-skill {
+  /* border: 1px solid red; */
+  width: 45%;
+}
+.form-pass {
+  /* border: 1px solid red; */
+  width: 45%;
+}
+.form-tos {
+  /* border: 1px solid green; */
+  width: 35%;
+}
+.form-tos-label {
+  /* border: 1px solid red; */
+  width: 45%;
+}
+.form-submit-btn {
+  border: 1px solid red;
+  padding: 0.75rem;
+  width: 45%;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
